@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
                 i = -1;
             }
             i++;
-            currentIteration++;
-
+            currentIteration++; // Збільшуємо крок на 1,до тих пір поки значення буде менше ніж numberOfIterations,яке ми беремо з варіанту лабараторної.
+                                
             y = points[i][0] * w1 + points[i][1] * w2;
 
             if (isSatisfy(w1, w2)) {
